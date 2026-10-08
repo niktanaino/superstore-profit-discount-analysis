@@ -13,7 +13,7 @@ Which product categories, sub-categories and markets are least profitable, and d
 - Recommendation: cap discounts at 20% unless a manager approves them.
 
 ## Data
-- Source: [Global Super Store Dataset](https://www.kaggle.com/) by Apoorva Mahalingappa on Kaggle. Search the title on Kaggle to download it.
+- Source: [Global Super Store Dataset](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset) by Apoorva Mahalingappa on Kaggle. Search the title on Kaggle to download it.
 - 51,290 order lines, covering orders, products, customers, sales, discount and profit.
 - The currency is not stated in the dataset, so figures are shown without a currency symbol.
 - The dataset is not stored in this repository. Download it from Kaggle to run the queries.
