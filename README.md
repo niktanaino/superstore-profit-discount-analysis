@@ -111,8 +111,8 @@ Even though no market loses money, many individual countries do. The ten least p
 |---|---|
 | `Global Superstore analysis.sql` | All the SQL queries, with notes |
 
-<!-- Once the dashboard screenshots are uploaded, delete these comment markers:
+
 ![Overview](dashboard_overview.png)
 ![Discounting](dashboard_discounting.png)
 ![Markets](dashboard_markets.png)
---> 
+
