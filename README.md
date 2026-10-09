@@ -9,6 +9,7 @@ Which product categories, sub-categories and markets are least profitable, and d
 - Every product category makes a profit, but **Furniture earns only a 6.9% margin**, roughly half that of the other two.
 - **Tables is the only sub-category that loses money**: a -8.5% margin, or a loss of 64,083 on 757,042 of sales.
 - **No market loses money, but EMEA earns only a 5.4% margin**, less than half the company-wide 11.6%.
+- **The ten least profitable countries all lose money**, a combined 355,054, with Turkey and Nigeria the worst.
 - **Discounting explains the losses.** Orders discounted by more than 20% lose money, and orders discounted by more than 40% run at a **-74.1% margin**.
 - Recommendation: cap discounts at 20% unless a manager approves them.
 
@@ -72,16 +73,36 @@ No market loses money. The company-wide margin is 11.6% (1,467,458 profit on 12,
 - **APAC earns the most profit** (436,000), followed by EU and the US.
 - **Canada has the highest margin** (26.6%), but it is a very small market, with only 384 order lines.
 
+### By country
+Even though no market loses money, many individual countries do. The ten least profitable countries all make a loss, a combined **355,054**.
+
+| Country | Order lines | Profit | Margin |
+|---|---|---|---|
+| Turkey | 1,378 | -98,447 | -90.7% |
+| Nigeria | 905 | -80,751 | -148.6% |
+| Netherlands | 435 | -41,070 | -53.0% |
+| Honduras | 713 | -29,482 | -32.7% |
+| Pakistan | 249 | -22,447 | -38.1% |
+| Argentina | 390 | -18,694 | -32.5% |
+| Panama | 388 | -17,723 | -34.4% |
+| Sweden | 203 | -17,519 | -57.5% |
+| Philippines | 681 | -16,128 | -8.8% |
+| South Korea | 172 | -12,793 | -38.6% |
+
+- **Turkey loses the most** (98,447), and **Nigeria has the worst margin** (-148.6%), losing more than it earns in sales.
+- Profitable countries in the same markets hide these losses, which is why the market-level view looks healthy.
+
 ## Recommendations
 1. Cap discounts at 20% unless a manager signs them off.
 2. Review discounting on Tables first, since it is the only sub-category making a loss.
 3. Look into pricing and discounting in EMEA, the lowest-margin market.
-4. Report profit margin by discount band every month, so heavy discounting is spotted early.
+4. Review pricing and discounting in the loss-making countries, starting with Turkey and Nigeria.
+5. Report profit margin by discount band every month, so heavy discounting is spotted early.
 
 ## Limitations
 - This shows that heavy discounts and losses go together. It doesn't prove that discounting caused every loss.
 - Canada has only 384 order lines, so its 26.6% margin is less reliable than the others.
-- I did not test whether discounting explains EMEA's low margin.
+- I did not test whether discounting explains EMEA's low margin or the country-level losses.
 - The discount bands are my own choice of cut-offs. Different bands could change the numbers a little.
 - The currency and time period were not checked, and the data is a published sample dataset rather than a real company's records.
 
@@ -90,6 +111,8 @@ No market loses money. The company-wide margin is 11.6% (1,467,458 profit on 12,
 |---|---|
 | `Global Superstore analysis.sql` | All the SQL queries, with notes |
 
-<!-- Once the dashboard is built, upload dashboard.png and delete these comment markers:
-![Dashboard](dashboard.png)
--->
+<!-- Once the dashboard screenshots are uploaded, delete these comment markers:
+![Overview](dashboard_overview.png)
+![Discounting](dashboard_discounting.png)
+![Markets](dashboard_markets.png)
+--> 
