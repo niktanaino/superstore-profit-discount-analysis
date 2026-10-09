@@ -21,6 +21,7 @@ Which product categories, sub-categories and markets are least profitable, and d
 
 ## Tools
 SQL (Google BigQuery)
+Power BI 
 
 ## Method
 1. Loaded the CSV into BigQuery as `superstore_raw`. The file used a different text encoding, so I converted it to UTF-8 before it would upload.
